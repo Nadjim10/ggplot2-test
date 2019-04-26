@@ -12,7 +12,7 @@
 ########## Loaded les packages nécessaires ###########
 
 library(stringr)
-library(XML)
+library(XML) 
 library(RCurl)
 library(maps)
 
@@ -27,7 +27,7 @@ tables <- readHTMLTable(famous_album, stringsAsFactors = FALSE)
 top9_album <- top9_album <- tables[[2]]
 names(top9_album)
 
-########## Nettoyer les données ###########
+########## Nettoyer les données ########### Un jour
 
 
 ########## Faire un ggplot des albums les plus vendus ###########
