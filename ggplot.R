@@ -11,10 +11,12 @@
 
 ########## Loaded les packages nécessaires ###########
 
+library(tidyverse)
 library(stringr)
 library(XML)
 library(RCurl)
 library(maps)
+
 
 ########## We load the data from the webpage into R ###########
 
@@ -24,8 +26,10 @@ tables <- readHTMLTable(famous_album, stringsAsFactors = FALSE)
 
 ########## We have a look at the names of the first few sites ###########
 
-top9_album <- top9_album <- tables[[2]]
-names(top9_album)
+Top9_album <- tables[[2]]
+names(Top9_album) <- Top9_album[1,]
+Top9_album <- Top9_album[-1,]
+head(Top9_album)
 
 ########## Nettoyer les données ###########
 
