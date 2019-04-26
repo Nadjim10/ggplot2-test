@@ -3,7 +3,7 @@
 # Bonjour! Voici le 2e document test d'Adrien Cloutier servant aux mardis scraping.
 # Dans ce document, je tenterai de faire un ggplot, en prévision du prochain meeting.
 
-# Bonne chance!
+# Bonne chance! En effet!!!
 
 ########################################## 25 avril 2019 ##########################################
 
