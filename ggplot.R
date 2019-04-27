@@ -6,6 +6,7 @@
 # Bonne chance! En effet!!!
 # À tous! 
 # Encore un commentaire inutile pour tester Git...
+# Je suis content que ça fontionne sur Slack, c'est incroyable!
 
 ########################################## 25 avril 2019 ##########################################
 
