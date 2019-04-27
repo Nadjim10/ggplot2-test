@@ -13,7 +13,7 @@
 
 library(tidyverse)
 library(stringr)
-library(XML)
+library(XML) 
 library(RCurl)
 library(maps)
 
@@ -31,7 +31,7 @@ names(Top9_album) <- Top9_album[1,]
 Top9_album <- Top9_album[-1,]
 head(Top9_album)
 
-########## Nettoyer les données ###########
+########## Nettoyer les données ########### Un jour
 
 
 ########## Faire un ggplot des albums les plus vendus ###########
