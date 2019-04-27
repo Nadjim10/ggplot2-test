@@ -24,7 +24,7 @@ famous_album <- getURL("https://fr.wikipedia.org/wiki/Liste_des_albums_musicaux_
 
 tables <- readHTMLTable(famous_album, stringsAsFactors = FALSE)
 
-########## We have a look at the data  ###########
+########## We have a look at the data and commencer à nettoyer!  ###########
 
 Top9_album <- tables[[2]]
 names(Top9_album) <- Top9_album[1,]
