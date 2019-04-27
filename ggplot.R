@@ -4,7 +4,8 @@
 # Dans ce document, je tenterai de faire un ggplot, en prévision du prochain meeting.
 
 # Bonne chance! En effet!!!
-# À tous!
+# À tous! 
+# Encore un commentaire inutile pour tester Git...
 
 ########################################## 25 avril 2019 ##########################################
 
