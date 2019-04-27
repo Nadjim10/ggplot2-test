@@ -40,6 +40,7 @@ head(Top9_album)
 Top9_album$VenteMillions <- NA
 Top9_album$VenteMillions <- gsub("[[].*","",Top9_album$`Ventes(en millions)`)
 
+## Il faudrait enlever la colonne « Vente(en millions)
 
 ########## Faire un ggplot des albums les plus vendus ###########
 
