@@ -5,7 +5,7 @@
 
 # Bonne chance! En effet!!!
 # À tous! 
-# Encore un commentaire inutile pour tester Git...
+# Encore un commentaire inutile pour tester Git... Ouf.
 
 ########################################## 25 avril 2019 ##########################################
 
