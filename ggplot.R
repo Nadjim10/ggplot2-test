@@ -15,6 +15,7 @@
 
 ########## Loaded les packages nécessaires ###########
 
+library(ggplot2) # pour les graphiques
 library(tidyverse)
 library(stringr)
 library(XML) 
