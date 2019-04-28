@@ -20,6 +20,7 @@ library(RCurl)
 library(maps)
 
 
+
 ########## We load the data from the webpage into R ###########
 
 famous_album <- getURL("https://fr.wikipedia.org/wiki/Liste_des_albums_musicaux_les_plus_vendus")
