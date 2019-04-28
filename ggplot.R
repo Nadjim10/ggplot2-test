@@ -5,7 +5,9 @@
 
 # Bonne chance! En effet!!!
 # À tous! 
-# Encore un commentaire inutile pour tester Git... Ouf.
+
+# Encore un commentaire inutile pour tester Git...
+# Je suis content que ça fontionne sur Slack, c'est incroyable!
 
 ########################################## 25 avril 2019 ##########################################
 
@@ -15,7 +17,7 @@
 
 library(tidyverse)
 library(stringr)
-library(XML)
+library(XML) 
 library(RCurl)
 library(maps)
 
@@ -34,8 +36,16 @@ names(Top9_album) <- Top9_album[1,]
 Top9_album <- Top9_album[-1,]
 head(Top9_album)
 
-########## Nettoyer les données ###########
+########## Nettoyer les données ########### 
 
+# Utilisation de regular expression pour supprimer tout à partir du premier "[" 
+# . pour tous les caracteres
+# * pour jusqua la fin du string
+# "" pour remplacer par rien
+Top9_album$VenteMillions <- NA
+Top9_album$VenteMillions <- gsub("[[].*","",Top9_album$`Ventes(en millions)`)
+
+## Il faudrait enlever la colonne « Vente(en millions)
 
 ########## Faire un ggplot des albums les plus vendus ###########
 
