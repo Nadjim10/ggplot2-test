@@ -5,6 +5,7 @@
 
 # Bonne chance! En effet!!!
 # À tous! 
+
 # Encore un commentaire inutile pour tester Git...
 # Je suis content que ça fontionne sur Slack, c'est incroyable!
 
@@ -19,6 +20,7 @@ library(stringr)
 library(XML) 
 library(RCurl)
 library(maps)
+
 
 
 ########## We load the data from the webpage into R ###########
